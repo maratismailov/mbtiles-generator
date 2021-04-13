@@ -1,0 +1,13 @@
+version: '3.7'
+services:
+  mbtiles-generator:
+    image: regfe89/mbtiles-generator:latest
+    ports:
+      - "2999:2999"
+    environment:
+      - TILESERVER_TYPE=bing
+      - TILESERVER_ENDPOINT=http://dev.virtualearth.net/REST/V1/Imagery/Metadata/Aerial?mapVersion=v1&output=json&key=
+      - APP_MINZOOM=5
+      - APP_MAXZOOM=17
+      - APP_MAXAREA=35
+      - APP_TIMEOUT=500

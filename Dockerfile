@@ -23,7 +23,7 @@ ADD app.sh ./
 
 # Environment defaults
 ENV APP_MODE=server
-ENV TILESERVER_TYPE=osm
+ENV TILESERVER_TYPE=bing
 ENV TILESERVER_ENDPOINT=http://a.tile.openstreetmap.org/{z}/{x}/{y}.png
 ENV APP_MINZOOM=5
 ENV APP_MAXZOOM=17
