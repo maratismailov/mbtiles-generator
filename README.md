@@ -10,7 +10,7 @@ The spec is available on [GitHub](https://github.com/mapbox/mbtiles-spec)
 
 ### What is MBTiles Generator ?
 Although MBTiles seem very convenient for offline purposes, it has always been tricky to create. 
-Now, with this generator, you can easily make your own MBTiles using a remote tile-server (bing or OpenStreetMap).
+Now, with this generator, you can easily make your own MBTiles using a remote tile-server (bing or OpenStreetMap ).
 
 ### Usage
 Two images are available: mapsquare/mbtiles-generator-base and mapsquare/mbtiles-generator-server.  
