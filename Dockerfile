@@ -26,7 +26,7 @@ ENV APP_MODE=server
 ENV TILESERVER_TYPE=bing
 ENV TILESERVER_ENDPOINT=http://a.tile.openstreetmap.org/{z}/{x}/{y}.png
 ENV APP_MINZOOM=5
-ENV APP_MAXZOOM=17
+ENV APP_MAXZOOM=18
 ENV APP_MAXAREA=35
 # Only for server mode
 ENV APP_TIMEOUT=500
